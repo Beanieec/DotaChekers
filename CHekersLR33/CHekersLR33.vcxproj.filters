@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="lr2 cpp">
+      <UniqueIdentifier>{13a65f7f-8f9e-4b44-a5dd-a070d6efec75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lr h">
+      <UniqueIdentifier>{f304f868-5e5a-4baf-917f-67fcfa6abc82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CHekersLR33.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CHekersLR33Dlg.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CStartupDlg.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="BotPlayer.h">
+      <Filter>lr h</Filter>
+    </ClInclude>
+    <ClInclude Include="CellType.h">
+      <Filter>lr h</Filter>
+    </ClInclude>
+    <ClInclude Include="ChekersBoard.h">
+      <Filter>lr h</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>lr h</Filter>
+    </ClInclude>
+    <ClInclude Include="HumPlayer.h">
+      <Filter>lr h</Filter>
+    </ClInclude>
+    <ClInclude Include="MonteCarlo.h">
+      <Filter>lr h</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>lr h</Filter>
+    </ClInclude>
+    <ClInclude Include="RandPlayer.h">
+      <Filter>lr h</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayButton.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CHekersLR33.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="CHekersLR33Dlg.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="BotPlayer.cpp">
+      <Filter>lr2 cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ChekersBoard.cpp">
+      <Filter>lr2 cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>lr2 cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="MonteCarlo.cpp">
+      <Filter>lr2 cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>lr2 cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RandPlayer.cpp">
+      <Filter>lr2 cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="CStartupDlg.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayButton.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="HumPlayer.cpp">
+      <Filter>lr2 cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CHekersLR33.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CHekersLR33.rc2">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\CHekersLR33.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\radiSimp.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\radiWom.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\direSimp.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\direWom.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\SatyrSP.otf" />
+    <Font Include="..\..\CHekersLR33\SatyrSP.otf" />
+  </ItemGroup>
+</Project>
